@@ -2,9 +2,10 @@
 Scripts used for the publication "An assessment of basal melt parameterisations for Antarctic ice shelves"
 ========================================================================================================
 
-These are the scripts that were developed and used for the publication: 
+These are the scripts that were developed and used for the publication: Burgard, C., Jourdain, N. C., Reese, R., Jenkins, A., and Mathiot, P.: An assessment of basal melt parameterisations for Antarctic ice shelves, The Cryosphere Discuss. [preprint], https://doi.org/10.5194/tc-2022-32, in review, 2022.
 
-Burgard, C., Jourdain, N. C., Reese, R., Jenkins, A., and Mathiot, P.: An assessment of basal melt parameterisations for Antarctic ice shelves, The Cryosphere Discuss. [preprint], https://doi.org/10.5194/tc-2022-32, in review, 2022.
+*If you want to play around with the parameterisations and your own data, have a look at the package multimelt: https://github.com/ClimateClara/multimelt*
+
 
 Useful functions are grouped in the package ``assess_param_funcs``. To install them and use them in further scripts, don't forget to run 
 
@@ -14,6 +15,7 @@ Useful functions are grouped in the package ``assess_param_funcs``. To install t
   
 The scripts to format the data and produce the figures can be found in the folder ``scripts_and_notebooks``.
 
+*Note - In the scripts, the NEMO runs are called 'OPM+number'. Here are the corresponding names given in the manuscript: OPM006=HIGHGETZ, OPM016=WARMROSS, OPM018=COLDAMU and OPM021=REALISTIC.*
 
 
 Initial data formatting (from raw NEMO output to interesting variables gridded on stereographic grid)
@@ -50,6 +52,23 @@ Run the parameterisations with different parameters
 ---------------------------------------------------
 The scripts to run the parameterisations can be found in ``scripts_and_notebooks/apply_params``. 
 
+``evalmetrics_results_CV.ipynb`` computes the integrated melt and the melt near the grounding line, applying the parameters of the cross-validation on the corresponding left out time block or ice shelf. 
+
+``script_to_apply_all_param_basic_application.ipynb`` computes several 2D and 1D metrics resulting from the parameterisations for a given set of parameters for one NEMO run (useful for spatial patterns for example).
+
+``apply_param_PIGL_dutrieux_BedMachine.ipynb`` computes the parameterisations using best-estimate parameters applied to BedMachine output and the Dutrieux profiles. Only for Pine Island. For Figure 8.
 
 
-If you want to play around with the parameterisations and your own data, have a look at the package multimelt: https://github.com/ClimateClara/multimelt
+Final analysis and figures
+--------------------------
+The scripts to finalise the figures can be found in ``scripts_and_notebooks/figures``. 
+
+Figures 1 and 2 are done with ``Figures_1_and_2.ipynb``.
+Figures 4, 7, D1, D2, D3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_D1_D2_D3.ipynb``.
+Figure 5 is done with ``prepare_data_Figures_5_6.ipynb`` and ``Figure_5.ipynb``.
+Figure 6 is done with ``prepare_data_Figures_5_6.ipynb`` and``Figure_6.ipynb``.
+Figure 8 is done with ``Figure_8a.ipynb`` and ``Figure_8b.ipynb``.
+Figure 9 is done with ``Figure_9.ipynb``.
+
+Scripts for Figure B1/B2/B3 and Figure E1 will be uploaded soon.
+
