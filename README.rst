@@ -66,9 +66,10 @@ The scripts to finalise the figures can be found in ``scripts_and_notebooks/figu
 Figures 1 and 2 are done with ``Figures_1_and_2.ipynb``.
 Figures 4, 7, D1, D2, D3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_D1_D2_D3.ipynb``.
 Figure 5 is done with ``prepare_data_Figures_5_6.ipynb`` and ``Figure_5.ipynb``.
-Figure 6 is done with ``prepare_data_Figures_5_6.ipynb`` and``Figure_6.ipynb``.
+Figure 6 is done with ``prepare_data_Figures_5_6.ipynb`` and ``Figure_6.ipynb``.
 Figure 8 is done with ``Figure_8a.ipynb`` and ``Figure_8b.ipynb``.
 Figure 9 is done with ``Figure_9.ipynb``.
+Figure E1 is composed of the left panel of the figure created with ``Figure_E1_leftpanel.ipynb`` and of the right panel of Fig. 7.
 
-Scripts for Figure B1/B2/B3 and Figure E1 will be uploaded soon.
+Scripts for Figure B1/B2/B3 .
 
