@@ -55,7 +55,7 @@ do
 
 echo $yy
 echo 'cp > create gridded file'
-cp $path5/grid_eORCA025_CDO_Fabien.nc $path3/variables_of_interest_"$yy".nc
+cp $path5/grid_eORCA025_CDO.nc $path3/variables_of_interest_"$yy".nc
 
 for var in {votemper,vosaline,sosst,sosss,sosbt,sosbs}
 do
@@ -81,7 +81,7 @@ ncatted -a coordinates,$var,m,c,"lon lat" $path3/variables_of_interest_"$yy".nc
 done
 
 echo 'cp > create gridded file'
-cp $path2/grid_eORCA025_CDO_Fabien.nc $path3/mask_variables_of_interest.nc
+cp $path2/grid_eORCA025_CDO.nc $path3/mask_variables_of_interest.nc
 
 # write out the ice-shelf draft, the bathymetry and the ice-shelf mask (the latter is just to double-check the one we produce ourselves)
 for var in {isfdraft,bathy_metry,misf} 

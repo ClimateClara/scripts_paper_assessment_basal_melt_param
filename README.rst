@@ -47,6 +47,15 @@ For the simple parameterisations, run ``prepare_2D_thermal_forcing_simple.ipynb`
 
 For the more complex ones, usee the bash script ``run_generalized_tuning_script.sh`` to call the python script ``run_generalized_tuning_from_bash_crossval.py`` and run the tuning on the different samples (either leave-one-ice-shelf-out or leave-one-time-block-out or the whole sample or a random bootstrap sample). Then group the tuneed parameters with ``group_CV_parameters.ipynb`` (cross-validation) and/or ``group_BT_parameters.ipynb`` (bootstrap).
 
+The names of the parameterisations in the files and scripts are: 
+
+    - 'linear_local' for the linear, local parameterisation; 
+    - 'quadratic_local' for the quadratic, local parameterisation using a constant slope for all Antarctica; 'quadratic_local_cavslope' for the quadratic, local parameterisation using one slope on the cavity level of each ice shelf; 'quadratic_local_locslope' for the quadratic, local parameterisation using a slope on the grid-cell level; 
+    - 'quadratic_mixed_mean' for the quadratic, semilocal parameterisation using a constant slope for all Antarctica; 'quadratic_mixed_cavslope' for the quadratic, semilocal parameterisation using one slope on the cavity level of each ice shelf; 'quadratic_mixed_locslope' for the quadratic, semilocal parameterisation using a slope on the grid-cell level; 
+    - 'lazero19_2' for the plume parameterisation as suggested by Lazeroms et al. (2019);  'lazero19_modif2' for the modified plume parameterisation as suggested in this paper; 
+    - 'boxes_$n_pism$i_picop$j' are the box and PICOP parameterisations. $n = number of the configuration, where '1' = 2 boxes, '2' = 5 boxes, '3' = 10 boxes, '4' = PICO boxes; $i is yes or no, where yes is heterogeneous boxes and no is homogeneous boxes; $j is yes or no, where yes is PICOP (using the plume parameterisation to infer the melt) and no is "normal" box parameterisation.
+
+
 
 Run the parameterisations with different parameters
 ---------------------------------------------------
