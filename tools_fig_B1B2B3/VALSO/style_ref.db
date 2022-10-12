@@ -1,0 +1,31 @@
+ runid                   |     name      |   line   |   color        |
+ eORCA025.L121-OPM000    | NOINI         | -        | royalblue      |
+ eORCA025.L121-OPM005    | 2000          | -        | chocolate      |
+ ORCA025.L75-GNJ002      | O025GNJ002    | -        | chocolate      |
+ eORCA025.L121-OPM006    | REF           | -        | crimson        |
+ eORCA025.L121-OPM007    | DFS           | -        | navy           |
+ eORCA025.L121-OPM010    | EIV150        | -        | royalblue      |
+ eORCA025.L121-OPM011    | AHT300        | -        | sienna         |
+ eORCA025.L121-OPM012    | AHT300+EIV300 | -        | cornflowerblue |
+ eORCA025.L121-OPM013    | AHT300+EIV300+PSLIP | -        | lightgreen |
+ eORCA025.L121-OPM015    | 300+SIB+60M   | -        | darkred    |
+ eORCA025.L121-OPM016    | GM300+AABW   | -        | forestgreen    |
+ eORCA025.L121-OPM017    | GM150        | -        | sienna    |
+ eORCA025.L121-OPM018    | REF     | -        | orange    |
+ eORCA025.L121-OPM019    | INIT    | -        | cornflowerblue |
+ eORCA025.L121-OPM020    | ICE      | -        | royalblue      |
+ eORCA025.L121-OPM021    | REF_OLD      | -        | chocolate        |
+ eORCA025.L121-OPM022    | PERT2160_OLD | -        | navy         |
+ eORCA025.L121-OPM023    | PERT2160     | --       | sienna         |
+ eORCA025.L121-OPM024    | PERT2160+PEN | -        | chocolate         |
+ eORCA025.L121-OPM025    | PERT2160+PEN+SHLAT2d | -        | orange         |
+ eORCA025.L121-OPM026    | REF      | -        | sienna         |
+ eORCA025.L121-OPM027    | HADCM3_A1B_2160 | -        | royalblue         |
+ eORCA025.L121-OPM031    | IPSLCM6_SSP585_2260 | -        | cornflowerblue         |
+ AMUXL025-ICB01          | ICB DEP | -        | royalblue |
+ AMUXL025-ICB02          | ICB SUR | -        | crimson   |
+ AMUXL025-ICB03          | ICB RNF | -        | sienna   |
+ AMUXL025-ICB04          | ICB NML | -        | cornflowerblue   |
+ AMUXL025-ICB05          | ICB BCK | -        | darkgreen   |
+ AMUXL025-ICB06          | ICB DDM | -        | chocolate   |
+ AMUXL12-GNJ004_BM02     | NJ_TEST       | -        | sienna

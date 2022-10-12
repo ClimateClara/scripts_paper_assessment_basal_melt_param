@@ -1,0 +1,5 @@
+# ignore files in FIGURE and SLURM directory
+FIGURES/*
+SLURM/*
+# ignore * figures in VALSO directory
+*.png

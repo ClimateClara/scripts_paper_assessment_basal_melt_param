@@ -86,5 +86,8 @@ Figure 9 is done with ``Figure_9.ipynb``.
 
 Figure E1 is composed of the left panel of the figure created with ``Figure_E1_leftpanel.ipynb`` and of the right panel of Fig. 7.
 
-Scripts for Figure B1/B2/B3 will be uploaded soon.
+Figure B1 is done with ``Figure_B1.bash`` and scripts found in ``tools_fig_B1B2B3/VALSO/`` (this is the version downloaded from https://github.com/pmathiot/VALSO on October 11th 2022).
 
+Figure B2 is done with ``Figure_B2.bash`` and scripts found in ``tools_fig_B1B2B3/PyChart/`` (this is the version downloaded from https://github.com/pmathiot/PyChart on October 11th 2022).
+
+Figure B3 is done with ``Figure_B3.bash`` and scripts found in ``tools_fig_B1B2B3/PyChart/`` (this is the version downloaded from https://github.com/pmathiot/PyChart on October 11th 2022).
