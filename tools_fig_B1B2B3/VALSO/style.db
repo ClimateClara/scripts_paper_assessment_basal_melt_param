@@ -1,0 +1,18 @@
+ runid                   |     name      |   line   |   color        |
+ ORCA025.L75-GNJ002      | O025GNJ002    | -        | chocolate      |
+ eORCA025.L121-OPM006    | REF           | -        | crimson        |
+ eORCA025.L121-OPM016    | GM300+AABW   | -        | forestgreen    |
+ eORCA025.L121-OPM017    | GM150        | -        | sienna    |
+ eORCA025.L121-OPM018    | REF     | -        | orange    |
+ eORCA025.L121-OPM019    | INIT    | -        | cornflowerblue |
+ eORCA025.L121-OPM020    | INIT79  | -        | royalblue      |
+ eORCA025.L121-OPM021    | ICE79   | --       | royalblue      |
+ eORCA025.L121-OPM026    | Occigen | -       | sienna         |
+ eORCA025.L121-TPM026    | TGCC    | -       | royalblue      |
+ AMUXL025-ICB01          | ICB DEP | -        | royalblue |
+ AMUXL025-ICB02          | ICB SUR | -        | crimson   |
+ AMUXL025-ICB03          | ICB RNF | -        | sienna   |
+ AMUXL025-ICB04          | ICB NML | -        | cornflowerblue   |
+ AMUXL025-ICB05          | ICB BCK | -        | darkgreen   |
+ AMUXL025-ICB06          | ICB DDM | -        | chocolate   |
+ AMUXL12-GNJ004_BM02     | NJ_TEST       | -        | sienna
