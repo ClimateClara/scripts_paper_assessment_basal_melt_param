@@ -67,14 +67,16 @@ The scripts to run the parameterisations can be found in ``scripts_and_notebooks
 
 ``apply_param_PIGL_dutrieux_BedMachine.ipynb`` computes the parameterisations using best-estimate parameters applied to BedMachine output and the Dutrieux profiles. Only for Pine Island. For Figure 8.
 
+``apply_pointbypointRMSE_box1_forFigF1.ipynb`` computes the difference between parameterised and reference melt in box1 point by point (for the comparison in Fig. F1).
+
 
 Final analysis and figures
 --------------------------
 The scripts to finalise the figures can be found in ``scripts_and_notebooks/figures``. 
 
-Figures 1 and 2 are done with ``Figures_1_and_2.ipynb``.
+Figures 2 and 3 are done with ``Figures_2_and_3.ipynb``.
 
-Figures 4, 7, D1, D2, D3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_D1_D2_D3.ipynb``.
+Figures 4, 7, E1, E2, E3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_E1_E2_E3.ipynb``.
 
 Figure 5 is done with ``prepare_data_Figures_5_6.ipynb`` and ``Figure_5.ipynb``.
 
@@ -84,7 +86,7 @@ Figure 8 is done with ``Figure_8a.ipynb`` and ``Figure_8b.ipynb``.
 
 Figure 9 is done with ``Figure_9.ipynb``.
 
-Figure E1 is composed of the left panel of the figure created with ``Figure_E1_leftpanel.ipynb`` and of the right panel of Fig. 7.
+Figure F1 is composed of the left panel of the figure created with ``Figure_E1_leftpanel.ipynb`` and of the right panel of Fig. 7.
 
 Figure B1 is done with ``Figure_B1.bash`` and scripts found in ``tools_fig_B1B2B3/VALSO/`` (this is the version downloaded from https://github.com/pmathiot/VALSO on October 11th 2022).
 
