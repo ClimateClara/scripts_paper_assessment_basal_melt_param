@@ -2,7 +2,7 @@
 Scripts used for the publication "An assessment of basal melt parameterisations for Antarctic ice shelves"
 ========================================================================================================
 
-These are the scripts that were developed and used for the publication: Burgard, C., Jourdain, N. C., Reese, R., Jenkins, A., and Mathiot, P.: An assessment of basal melt parameterisations for Antarctic ice shelves, The Cryosphere Discuss. [preprint], https://doi.org/10.5194/tc-2022-32, in review, 2022.
+These are the scripts that were developed and used for the publication: Burgard, C., Jourdain, N. C., Reese, R., Jenkins, A., and Mathiot, P.: An assessment of basal melt parameterisations for Antarctic ice shelves, The Cryosphere, https://doi.org/10.5194/tc-2022-32, in press, 2022.
 
 *If you want to play around with the parameterisations and your own data, have a look at the package multimelt: https://github.com/ClimateClara/multimelt*
 
@@ -61,7 +61,7 @@ Run the parameterisations with different parameters
 ---------------------------------------------------
 The scripts to run the parameterisations can be found in ``scripts_and_notebooks/apply_params``. 
 
-``evalmetrics_results_CV.ipynb`` computes the integrated melt and the melt near the grounding line, applying the parameters of the cross-validation on the corresponding left out time block or ice shelf. 
+``evalmetrics_results_CV.ipynb`` computes the integrated melt and the melt near the grounding line, applying the parameters of the cross-validation on the corresponding left out time block or ice shelf and applyong the original parameters.
 
 ``script_to_apply_all_param_basic_application.ipynb`` computes several 2D and 1D metrics resulting from the parameterisations for a given set of parameters for one NEMO run (useful for spatial patterns for example).
 
@@ -76,7 +76,7 @@ The scripts to finalise the figures can be found in ``scripts_and_notebooks/figu
 
 Figures 2 and 3 are done with ``Figures_2_and_3.ipynb``.
 
-Figures 4, 7, E1, E2, E3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_E1_E2_E3.ipynb``.
+Figures 4, 7, E1, E2, E3 and values for Tables 3, 5, 7, 9 are done with ``Figures_4_7_E1_E2_E3.ipynb`` and ``check_RMSE_orig_parameters.ipynb``.
 
 Figure 5 is done with ``prepare_data_Figures_5_6.ipynb`` and ``Figure_5.ipynb``.
 
@@ -93,3 +93,4 @@ Figure B1 is done with ``Figure_B1.bash`` and scripts found in ``tools_fig_B1B2B
 Figure B2 is done with ``Figure_B2.bash`` and scripts found in ``tools_fig_B1B2B3/PyChart/`` (this is the version downloaded from https://github.com/pmathiot/PyChart on October 11th 2022).
 
 Figure B3 is done with ``Figure_B3.bash`` and scripts found in ``tools_fig_B1B2B3/PyChart/`` (this is the version downloaded from https://github.com/pmathiot/PyChart on October 11th 2022).
+
