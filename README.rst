@@ -94,3 +94,5 @@ Figure B2 is done with ``Figure_B2.bash`` and scripts found in ``tools_fig_B1B2B
 
 Figure B3 is done with ``Figure_B3.bash`` and scripts found in ``tools_fig_B1B2B3/PyChart/`` (this is the version downloaded from https://github.com/pmathiot/PyChart on October 11th 2022).
 
+Quick figures (not looking as good as in the paper) B1, B2 and B3 can be made with ``reproduce_plots_appendix.ipynb``
+
